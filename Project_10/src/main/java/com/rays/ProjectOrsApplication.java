@@ -43,6 +43,7 @@ public class ProjectOrsApplication extends SpringBootServletInitializer {
 		WebMvcConfigurer w = new WebMvcConfigurer() {
 
 			/**
+			 * +0.
 			 * Add CORS
 			 * 
 			 */
@@ -71,6 +72,7 @@ public class ProjectOrsApplication extends SpringBootServletInitializer {
 			}
 
 		};
+		
 
 		return w;
 	}
