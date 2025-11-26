@@ -17,7 +17,6 @@ public class UserContext {
 	private String roleName = "root";
 	private Long orgId = 0L;
 	private String orgName = "root";
-	private Long orgImageId = 0L;
 
 	private UserDTO userDTO = null;
 
@@ -83,14 +82,6 @@ public class UserContext {
 
 	public void setOrgId(Long orgId) {
 		this.orgId = orgId;
-	}
-
-	public Long getOrgImageId() {
-		return orgImageId;
-	}
-
-	public void setOrgImageId(Long orgImageId) {
-		this.orgImageId = orgImageId;
 	}
 
 	public UserDTO getUserDTO() {
