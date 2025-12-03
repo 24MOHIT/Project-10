@@ -23,7 +23,7 @@ export class EndpointServiceService {
 
   public CUSTOMER = this.SERVER_URL + "/Customer";
 public EMPLOYEE = this.SERVER_URL + "/Employee";
-
+public BANK = this.SERVER_URL + "/Bank";
 
  
 

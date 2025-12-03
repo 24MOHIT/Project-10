@@ -104,8 +104,8 @@ export class BaseListCtl extends BaseCtl {
 
     this.checkboxes.forEach((element) => {
       if (element.nativeElement.checked) {
-        // console.log('record deleting ' + element.nativeElement.id)
-        this.deleteRecordList.push(element.nativeElement.id);
+
+         this.deleteRecordList.push(element.nativeElement.id);
         isRecordSelected = true;
       }
     });

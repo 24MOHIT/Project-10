@@ -178,9 +178,12 @@ export class BaseCtl implements OnInit {
     var _self = this;
     console.log('Inside display method');
     this.serviceLocator.httpService.get(_self.api.get + "/" + _self.form.data.id, function (res) {
+      console.log('Mohit');
      _self.form.data.id=0;
        if (res.success) {
+        console.log('Prajapat');
          _self.populateForm(_self.form.data, res.result.data);
+
        }
        else {
         _self.form.error = true;
